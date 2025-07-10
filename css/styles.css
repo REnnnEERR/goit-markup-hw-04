@@ -125,7 +125,14 @@ footer a,
 }
 
 .hero-banner {
-    padding: 188px 0
+    padding: 188px 0;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-banner.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+
 }
 
 .hero-banner-name {
@@ -218,6 +225,13 @@ footer a,
     gap: 24px;
 }
 
+.benefits-list-imeg {
+    background-color: rgba(224, 244, 253x, 1);
+    width: 264px;
+    height: 112px;
+    border: 1px;
+}
+
 .benefits-list-container {
     width: calc((100% - 3 * 24px) / 4);
 }
@@ -284,12 +298,38 @@ footer a,
 
 .portfolio-list-text {
     width: calc((100% - 48px) / 3);
+    position: relative;
+    overflow: hidden;
+
 }
 
 .portfolio-content {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+
+
+}
+
+.overlay-text {
+    color: rgb(255, 255, 255);
+}
+
+.overlay {
+    padding: 35px 30px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+    left: 0;
+}
+
+.portfolio-list-text:hover .overlay {
+    transform: translateY(0);
+    background-color: rgba(77, 90, 229, 1);
+    ;
 }
 
 .portfolio-title {
