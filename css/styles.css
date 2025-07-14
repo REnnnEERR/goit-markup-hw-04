@@ -118,7 +118,7 @@ footer a,
     color: #404bbf
 }
 
-.top-menu-studio-first::after {
+url(./images/Group.svg) .top-menu-studio-first::after {
     content: ''
         width: 100%;
     absolute;
@@ -223,6 +223,27 @@ footer a,
     padding: 120px 0;
 }
 
+.benefits-list-imeg {
+    background-color: rgba(244, 244, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+.SVG-icon {
+    padding: 30px, 30px;
+    width: 65px;
+    height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 .benefits-title {
     margin-bottom: 8px;
 }
@@ -307,6 +328,30 @@ footer a,
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    margin: 5px;
+}
+
+.sosial-imeg {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-
+}
+
+.SVG-sosial-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.sosial-imeg-oreol {
+    background-color: rgba(77, 90, 229, 1);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
 }
 
 .portfolio-list {
