@@ -95,6 +95,8 @@ footer a,
 .down,
 .hero-banner {
     background-color: #2E2F42;
+    display: flex;
+
 }
 
 .top-menu {
@@ -351,7 +353,6 @@ url(./images/Group.svg) .top-menu-studio-first::after {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 10px;
 }
 
 .portfolio-list {
@@ -407,7 +408,8 @@ url(./images/Group.svg) .top-menu-studio-first::after {
 }
 
 .down {
-    padding: 100px 0
+    padding: 100px 0;
+
 }
 
 .top-menu :hover {
@@ -476,4 +478,24 @@ ul {
 
 img {
     display: block;
+}
+
+.footer-sosial {
+    color: #ffff;
+    justify-content: space-between;
+
+}
+
+.container-footer {
+    width: 2200px;
+    height: 100px;
+    margin-right: 1500px;
+    justify-content: space-between;
+
+
+}
+
+.footer-position {
+    display: flex;
+    justify-content: flex-start;
 }

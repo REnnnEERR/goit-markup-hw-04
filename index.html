@@ -11,19 +11,7 @@
     />
 
     <meta charset="UTF-8" />
-    <title>SVG Sprite Example</title>
-    <style>
-      body {
-        font-family: sans-serif;
-        padding: 2rem;
-      }
-      svg {
-        width: 40px;
-        height: 40px;
-        margin-right: 10px;
-        vertical-align: middle;
-      }
-    </style>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,14 +27,16 @@
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
       <symbol id="icon-fb" viewBox="0 0 16 16 ">
-        <g clip-path="url(#a)">
+        <g clip-path="url(#clip-fb)">
           <path
             fill="#F4F4FD"
             d="M10.665 2.657h1.46V.113A18.862 18.862 0 0 0 9.997 0C7.891 0 6.45 1.325 6.45 3.76V6H4.125v2.844h2.324V16h2.849V8.845h2.23L11.882 6H9.297V4.04c.001-.822.222-1.384 1.368-1.384Z"
           />
         </g>
         <defs>
-          <clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z" /></clipPath>
+          <clipPath id="clip-fb">
+            <path fill="#fff" d="M0 0h16v16H0z" />
+          </clipPath>
         </defs>
       </symbol>
       <symbol id="icon-x" viewBox="0 0 16 16">
@@ -56,7 +46,7 @@
         />
       </symbol>
       <symbol id="icon-insta" viewBox="0 0 16 16">
-        <g fill="#F4F4FD" clip-path="url(#a)">
+        <g fill="#F4F4FD" clip-path="url(#clip-insta)">
           <path
             d="M15.984 4.704c-.037-.85-.175-1.435-.372-1.941a3.905 3.905 0 0 0-.925-1.419 3.938 3.938 0 0 0-1.416-.922c-.51-.197-1.09-.335-1.94-.372C10.473.01 10.2 0 8.03 0 5.857 0 5.585.01 4.732.047c-.85.037-1.434.175-1.94.372a3.904 3.904 0 0 0-1.42.925A3.94 3.94 0 0 0 .45 2.76C.253 3.27.116 3.85.078 4.7c-.04.857-.05 1.13-.05 3.301 0 2.173.01 2.445.047 3.298.037.85.175 1.435.372 1.941.203.538.519 1.019.925 1.42.4.405.885.721 1.416.921.51.197 1.09.335 1.941.372.853.038 1.125.047 3.298.047 2.172 0 2.444-.01 3.297-.047.85-.037 1.435-.175 1.941-.372a4.093 4.093 0 0 0 2.341-2.34c.197-.51.335-1.092.372-1.942.038-.853.047-1.125.047-3.297 0-2.173-.003-2.445-.04-3.298Zm-1.44 6.532c-.035.782-.166 1.204-.276 1.485a2.655 2.655 0 0 1-1.519 1.52c-.281.109-.706.24-1.484.274-.844.038-1.097.047-3.232.047-2.135 0-2.391-.01-3.232-.047-.782-.034-1.204-.165-1.485-.275a2.462 2.462 0 0 1-.919-.597 2.487 2.487 0 0 1-.597-.919c-.11-.281-.24-.706-.275-1.484-.037-.844-.047-1.098-.047-3.232 0-2.135.01-2.391.047-3.232.035-.782.166-1.203.275-1.485.128-.347.332-.662.6-.919.26-.265.572-.469.92-.597.28-.11.706-.24 1.484-.275.844-.037 1.097-.047 3.232-.047 2.138 0 2.39.01 3.232.047.781.035 1.203.166 1.484.275.347.128.663.332.92.597.265.26.468.572.596.92.11.28.241.706.275 1.484.038.844.047 1.097.047 3.232 0 2.135-.009 2.385-.046 3.229Z"
           />
@@ -65,17 +55,21 @@
           />
         </g>
         <defs>
-          <clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z" /></clipPath>
+          <clipPath id="clip-insta">
+            <path fill="#fff" d="M0 0h16v16H0z" />
+          </clipPath>
         </defs>
       </symbol>
       <symbol id="icon-link" viewBox="0 0 16 16">
-        <g fill="#F4F4FD" clip-path="url(#a)">
+        <g fill="#F4F4FD" clip-path="url(#clip-link)">
           <path
             d="M15.996 16H16V10.13c0-2.87-.618-5.082-3.974-5.082-1.613 0-2.696.886-3.138 1.725h-.047V5.317H5.66V16h3.314V10.71c0-1.393.264-2.74 1.988-2.74 1.7 0 1.725 1.59 1.725 2.83V16h3.31ZM.264 5.318h3.317V16H.264V5.318ZM1.921 0C.861 0 .001.86.001 1.92c0 1.06.86 1.94 1.92 1.94 1.061 0 1.922-.88 1.922-1.94S2.98 0 1.92 0Z"
           />
         </g>
         <defs>
-          <clipPath id="a"><path fill="#fff" d="M0 0h16v16H0z" /></clipPath>
+          <clipPath id="clip-link">
+            <path fill="#fff" d="M0 0h16v16H0z" />
+          </clipPath>
         </defs>
       </symbol>
       <symbol id="icon-clock" viewBox="0 0 64 64">
@@ -122,7 +116,9 @@
           />
         </g>
         <defs>
-          <clipPath id="a"><path fill="#fff" d="M0 0h64v64H0z" /></clipPath>
+          <clipPath id="a">
+            <path fill="#fff" d="M0 0h64v64H0z" />
+          </clipPath>
         </defs>
       </symbol>
       <symbol id="icon-vectory" viewBox="0 0 64 64">
@@ -184,7 +180,9 @@
           <ul class="benefits-list">
             <li class="benefits-list-container">
               <div class="benefits-list-imeg">
-                <svg class="SVG-icon"><use href="#icon-vectory"></use></svg>
+                <svg class="SVG-icon">
+                  <use href="#icon-vectory"></use>
+                </svg>
               </div>
               <h3 class="benefits-title">Strategy</h3>
               <p class="benefits-text">
@@ -194,7 +192,9 @@
             </li>
             <li class="benefits-list-container">
               <div class="benefits-list-imeg">
-                <svg class="SVG-icon"><use href="#icon-clock"></use></svg>
+                <svg class="SVG-icon">
+                  <use href="#icon-clock"></use>
+                </svg>
               </div>
               <h3 class="benefits-title">Punctuality</h3>
               <p class="benefits-text">
@@ -204,7 +204,9 @@
             </li>
             <li class="benefits-list-container">
               <div class="benefits-list-imeg">
-                <svg class="SVG-icon"><use href="#icon-diagram"></use></svg>
+                <svg class="SVG-icon">
+                  <use href="#icon-diagram"></use>
+                </svg>
               </div>
               <h3 class="benefits-title">Diligence</h3>
               <p class="benefits-text">
@@ -215,7 +217,9 @@
 
             <li class="benefits-list-container">
               <div class="benefits-list-imeg">
-                <svg class="SVG-icon"><use href="#icon-astronaut"></use></svg>
+                <svg class="SVG-icon">
+                  <use href="#icon-astronaut"></use>
+                </svg>
               </div>
               <h3 class="benefits-title">Technologies</h3>
               <p class="benefits-text">
@@ -493,14 +497,47 @@
       </section>
     </main>
     <footer class="down">
-      <div class="container">
-        <a class="logo-footer" href="./index.html">
-          Web<span class="logo-studio-footer">Studio</span></a
-        >
-        <p class="text-down">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+      <div class="footer-position">
+        <div class="container">
+          <div class="container-footer">
+            <a class="logo-footer" href="./index.html">
+              Web<span class="logo-studio-footer">Studio</span></a
+            >
+            <p class="text-down">
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions.
+            </p>
+          </div>
+        </div>
+        <div class="footer-sosial-media">
+          <div>
+            <p class="footer-sosial">Sosial media</p>
+          </div>
+          <div class="conteiner-footer-test">
+            <div class="sosial-imeg">
+              <div class="sosial-imeg-oreol">
+                <svg class="SVG-sosial-icon">
+                  <use href="#icon-insta"></use>
+                </svg>
+              </div>
+              <div class="sosial-imeg-oreol">
+                <svg class="SVG-sosial-icon">
+                  <use href="#icon-x"></use>
+                </svg>
+              </div>
+              <div class="sosial-imeg-oreol">
+                <svg class="SVG-sosial-icon">
+                  <use href="#icon-fb"></use>
+                </svg>
+              </div>
+              <div class="sosial-imeg-oreol">
+                <svg class="SVG-sosial-icon">
+                  <use href="#icon-link"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
