@@ -150,6 +150,7 @@ footer a,
     max-width: 1440px;
     height: 600px;
     margin: 0 auto;
+    background-position: center;
 
 }
 
@@ -226,19 +227,21 @@ footer a,
 }
 
 .benefits-list-imeg {
-    background-color: rgba(244, 244, 255, 1);
+    background-color: #f4f4fd;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #007BFF;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    margin-bottom: 8px;
     min-width: 100px;
     min-height: 100px;
+    width: 264px;
+    height: 112px;
+
 }
 
 .SVG-icon {
-    padding: 30px, 30px;
     width: 65px;
     height: 65px;
     margin-left: auto;
@@ -268,12 +271,6 @@ footer a,
     gap: 24px;
 }
 
-.benefits-list-imeg {
-    background-color: rgba(224, 244, 253x, 1);
-    width: 264px;
-    height: 112px;
-    border: 1px;
-}
 
 .benefits-list-container {
     width: calc((100% - 3 * 24px) / 4);
