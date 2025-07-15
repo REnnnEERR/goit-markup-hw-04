@@ -113,7 +113,8 @@ footer a,
 
 .top-menu-studio-first {
     position: relative;
-    color: #404bbf
+    color: #404bbf;
+    padding: 24px 0;
 }
 
 .top-menu-studio-first::after {
@@ -144,9 +145,9 @@ footer a,
 .hero-banner {
     padding: 188px 0;
     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-banner.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 1440px;
+    max-width: 1440px;
     height: 600px;
     margin: 0 auto;
 
@@ -191,6 +192,7 @@ footer a,
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-banner-button:hover {
