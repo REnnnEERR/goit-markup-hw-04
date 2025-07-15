@@ -120,10 +120,10 @@ footer a,
     color: #404bbf
 }
 
-url(./images/Group.svg) .top-menu-studio-first::after {
-    content: ''
-        width: 100%;
-    absolute;
+.top-menu-studio-first::after {
+    content: "";
+    position: absolute;
+    width: 100%;
     left: 0;
     bottom: -1px;
     height: 4px;
@@ -497,5 +497,5 @@ img {
 
 .footer-position {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
