@@ -333,9 +333,10 @@ footer a,
 
 .sosial-imeg {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin-top: 8px;
+    row-gap: 24px;
 }
 
 .SVG-sosial-icon {
