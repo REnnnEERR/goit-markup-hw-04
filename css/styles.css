@@ -503,7 +503,7 @@ img {
 .container-footer {
     width: 2200px;
     height: 100px;
-    margin-right: 1500px;
+    margin-right: 120px;
     justify-content: space-between;
 
 
@@ -512,4 +512,5 @@ img {
 .footer-position {
     display: flex;
     justify-content: center;
+    align-items: baseline;
 }
