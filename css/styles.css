@@ -338,7 +338,7 @@ footer a,
 
 .sosial-imeg {
     display: flex;
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
 }
 
@@ -361,7 +361,7 @@ footer a,
 
 .sosial-imeg-oreol:hover,
 .sosial-imeg-oreol:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
 }
 
 .portfolio-list {
