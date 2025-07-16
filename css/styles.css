@@ -115,6 +115,7 @@ footer a,
     position: relative;
     color: #404bbf;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-menu-studio-first::after {
@@ -134,6 +135,10 @@ footer a,
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-header {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -333,7 +338,8 @@ footer a,
 
 .sosial-imeg {
     display: flex;
-    gap: 16px;
+    gap: 24px;
+    justify-content: center;
 }
 
 .SVG-sosial-icon {
@@ -382,7 +388,7 @@ footer a,
 }
 
 .overlay-text {
-    padding: 35px 30px;
+    padding: 40px 32px;
     position: absolute;
     top: 0;
     width: 100%;
@@ -392,6 +398,7 @@ footer a,
     left: 0;
     color: rgb(255, 255, 255);
     background-color: #4d5ae5;
+
 }
 
 
@@ -538,4 +545,5 @@ img {
 
 .container-footer-position {
     display: flex;
+    align-items: baseline;
 }
