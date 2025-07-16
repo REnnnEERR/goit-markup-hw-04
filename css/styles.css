@@ -336,7 +336,7 @@ footer a,
     justify-content: center;
     align-items: center;
     margin-top: 8px;
-    row-gap: 24px;
+    gap: 24px;
 }
 
 .SVG-sosial-icon {
@@ -385,10 +385,6 @@ footer a,
 }
 
 .overlay-text {
-    color: rgb(255, 255, 255);
-}
-
-.overlay {
     padding: 35px 30px;
     position: absolute;
     top: 0;
@@ -398,21 +394,22 @@ footer a,
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     left: 0;
     color: rgb(255, 255, 255);
+    background-color: #4d5ae5;
 }
 
-.portfolio-list-text:hover .overlay {
-    transform: translateY(0);
-    background-color: rgba(77, 90, 229, 1);
-    ;
-}
+
 
 .portfolio-list-text:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-image-wrappe {
+.portfolio-image-wrapper {
     position: relative;
     overflow: hidden;
+}
+
+.portfolio-list-text:hover .overlay-text {
+    transform: translateY(0);
 }
 
 .portfolio-title {
